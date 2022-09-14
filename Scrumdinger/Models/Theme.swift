@@ -8,7 +8,7 @@
 import SwiftUI
 
 // an enumeration of type String
-enum Theme: String, CaseIterable, Identifiable{
+enum Theme: String, CaseIterable, Identifiable, Codable{
     // based in the asset catalog
     // named colors in the asset catalog must match their references in code
     case bubblegum

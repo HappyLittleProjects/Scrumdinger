@@ -28,6 +28,7 @@
 		090D5CC028D081AE00DC9544 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D5CBF28D081AD00DC9544 /* MeetingFooterView.swift */; };
 		090D5CC828D13D5A00DC9544 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D5CC728D13D5A00DC9544 /* AVPlayer+Ding.swift */; };
 		090D5CCA28D1A48E00DC9544 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D5CC928D1A48E00DC9544 /* History.swift */; };
+		090D5CCC28D1ABCE00DC9544 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D5CCB28D1ABCE00DC9544 /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		090D5CBF28D081AD00DC9544 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		090D5CC728D13D5A00DC9544 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		090D5CC928D1A48E00DC9544 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		090D5CCB28D1ABCE00DC9544 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		090D5CA428CFC98A00DC9544 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				090D5CCB28D1ABCE00DC9544 /* ScrumStore.swift */,
 				090D5CC928D1A48E00DC9544 /* History.swift */,
 				090D5CBD28D080AA00DC9544 /* ScrumTimer.swift */,
 				090D5CA528CFC9BF00DC9544 /* Theme.swift */,
@@ -198,6 +201,7 @@
 			files = (
 				090D5CAA28CFCCE900DC9544 /* CardView.swift in Sources */,
 				090D5CAE28CFD77900DC9544 /* ScrumsView.swift in Sources */,
+				090D5CCC28D1ABCE00DC9544 /* ScrumStore.swift in Sources */,
 				090D5CCA28D1A48E00DC9544 /* History.swift in Sources */,
 				090D5C9B28CF31A500DC9544 /* Persistence.swift in Sources */,
 				090D5CB228D015F100DC9544 /* DetailView.swift in Sources */,

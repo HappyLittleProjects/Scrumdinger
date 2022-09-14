@@ -8,7 +8,7 @@
 import Foundation
 
 // Stores the essential details of a scrum session
-struct History: Identifiable{
+struct History: Identifiable, Codable{
     let id: UUID
     let date: Date
     var attendees: [DailyScrum.Attendee]
