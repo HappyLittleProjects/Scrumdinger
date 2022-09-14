@@ -9,12 +9,14 @@ import SwiftUI
 
 @main
 struct ScrumdingerApp: App {
-    let persistenceController = PersistenceController.shared
+    @State private var scrums = DailyScrum.sampleData
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            // NavigationView displays navigation elements, such as title/bar/buttons on the canvas
+            NavigationView {
+                ScrumsView(scrums: $scrums)
+            }
         }
     }
 }
